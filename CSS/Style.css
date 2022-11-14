@@ -47,7 +47,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	overflow: scroll; /*--видимость текста в пределах блока, если он не влез scroll(тут понятно) hidden (скроет, что не влезло) visible (покажет, что не влезло) и auto (добавит скролл если он нужен с частичным отображением текста который не влез)--*/
 }
 .example-string{
-	/*
+	display: block; 
+/*	
 	padding: 50px;
 	margin: 10px;
 	width: 500px;
@@ -59,3 +60,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 100%;
 	max-width: 500px;
 }
+
+
+/* block: inline становится строчным тегом
+display: block  становится блочным тегом
+display: inline-block делает блок гибрид между строчным и блочным тегом
+display: none  скрывает блок*/
